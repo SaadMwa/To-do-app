@@ -1,0 +1,194 @@
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+
+.hero {
+  background: #00584d;
+  color: white;
+  min-height: 100vh;
+  padding: 10px 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 70px;
+
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logo {
+  height: 80px;
+  padding-right: 20vh;
+  border: none;
+  margin: 10px;
+  
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  height:-10px;
+}
+
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 60vh;
+    padding-left: 20vh;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.2;
+    font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-text p {
+  max-width: 400px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-primary {
+  background: white;
+  color: #00584d;
+  padding: 12px 24px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hero-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  grid-template-rows: 1fr 1fr;   /* two rows */
+  gap: 5px;
+  width: 500px;   /* adjust based on your design */
+}
+
+.small-card {
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+}
+
+.large-card {
+  grid-row: 1 / span 2;   /* take up both rows */
+  grid-column: 2 / 3;     /* stay in right column */
+  background: white;
+  position: relative;
+  overflow: hidden;
+  width: 50vh;
+}
+
+.large-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.large-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  color: white;
+}
+
+.large-text h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.large-text p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.btn-secondary {
+  background: white;
+  color: #00584d;
+  padding: 10px 16px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-images .small-card,
+.hero-images .large-card {
+  position: relative;
+}
+
+.card-btn{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    background-color: #00584d;
+    border: 2px solid #00584d;
+    padding: 6px 12px;
+    color: white;
+}
+
+
+

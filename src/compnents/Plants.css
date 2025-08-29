@@ -1,0 +1,29 @@
+.container3{
+    height:557px;
+    width: 1150;
+    background-color: rgb(199, 252, 199);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-left: 40px;
+    color: #00584d;
+}
+
+.text a{
+    margin-top: 30px;
+    text-decoration: underline;
+    color: #00584d;
+}
+
+.cards-container2{
+   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;      
+}
+
