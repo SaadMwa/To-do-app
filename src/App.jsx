@@ -1,9 +1,5 @@
-// App.jsx
-
-import React from 'react'
 import './App.css'
 
-// Components + their CSS
 import Navbar from './components/Navbar'
 import './components/Navbar.css'
 
